@@ -6,8 +6,7 @@
  #Main Styles
  #Navigation
  #Layout Styles
- #Layouts and Plugins
-
+ 
  /* Main Styles
  ================================================== */
 
@@ -34,16 +33,27 @@ h1, h2, h3, h4 {
 	
 }
 
+a{
+	color:#48D53C;
+	
+	
+}
+a:hover{
+	color:#B8B6B6;
+	
+	
+}
+
 p{ 
 	 line-height: 130%;
 	font-size:15px;
 	margin:10px;
-	padding:5px
+	padding:5px;
+	text-align:left;
 }
 
 blockquote cite{
 	padding:20px;
-	text-align:right;
 	font-style:italic;
 	font-size:13px;
 	color:#48D53C;
@@ -97,7 +107,7 @@ h2 {
 	margin-left:auto;
 	margin-right:auto;
 	border-radius: 10px;
-	border:solid 2px #48D53C;
+	border: ridge 2px #48D53C;
 		
 	
 }
@@ -163,8 +173,8 @@ h2 {
  ================================================== */
 
 .sg_style{
-	margin:15px;
-	padding:10px;
+	margin:20px;
+	padding:15px;
 	background:rgba(255,255,255,1.00)
 	width: 700px;
 	height:auto;
@@ -178,24 +188,19 @@ h2 {
 		
 }
 
-#sg_gallery figure{
-	display:block;
-	
-}
 
-/*#sg_aside{
-	margin:15px;
-	padding:10px;
-	background:rgba(255,255,255,1.00)
-	width: 700px;
-	height:auto;
-	margin-left:auto;
-	margin-right:auto;
-	text-align:left;
-	border-radius:10px;
+.gimage img{
+	
+	padding:5px;
 	border:solid 2px #48D53C;
 	
-}*/
+}
+.gimage img:hover{
+	padding:5px;
+	border:solid 2px #D4D2D2;
+}
+
+
 
 
 
