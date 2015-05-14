@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
-
+/*Assignment: Project 2*/
 /* Table of Content
  ==================================================
  #Main Styles
@@ -11,3 +11,69 @@
  /* Main Styles
  ================================================== */
 
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700|Asap:400,700italic,700,400italic);
+ @import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic);
+	
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	background-color:hsla(116,64%,54%,1.00)
+	
+	
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-weight: bold;
+	line-height: 1em;
+	margin-bottom: 0;
+	text-shadow: 2px 2px 3px #0FF494;
+	color:#F90307
+	;
+	
+	
+}
+
+.container{
+	width:750px;
+	padding:15px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:hsla(0,13%,95%,1);
+	border-radius:15px;
+	box-shadow:2px 2px 4px #343132 .56;
+	
+	
+	
+}
+
+h1 {
+	font-size: 45px;
+	margin: 20px;
+	
+}
+h2 {
+	font-size: 30px;
+	margin: 15px;
+	
+}
+
+#logo{
+	color:hsla(0,0%,98%,1.00);
+	background: #ed1c24;
+		padding: 15px;
+		position: static;
+		text-align: center;
+		
+	
+}
+#logo h1{
+	color:hsla(0,0%,98%,1.00);
+	
+		
+		
+		
+		
+	
+}
