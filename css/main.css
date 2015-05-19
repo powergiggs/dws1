@@ -13,7 +13,7 @@
 
 body{
 	font-family: 'Montserrat', sans-serif;
-	background-color:hsla(170,64%,54%,.75)
+	background-color:hsla(170,64%,54%,.5)
 	
 	
 }
@@ -31,19 +31,25 @@ h1, h2, h3, h4 {
 }
 
 
+a:link {
+    color: #48D53C;
+}
+
+a:visited {
+    color: #D4D2D2;
+}
+
+
 a:hover{
 	color:#c0c2ce;
 		
 }
 
-a {
-    color: #48D53C;
+a{
+text-decoration: none;
 }
 
 
-a:visited {
-    color: #D4D2D2;
-}
 
 p{ 
 	 line-height: 130%;
