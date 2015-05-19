@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* CSS Document */
 /*Assignment: Project 2*/
 /* Table of Content
@@ -10,8 +9,6 @@
  /* Main Styles
  ================================================== */
 
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700|Asap:400,700italic,700,400italic);
- @import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic);
 	
 
 body{
@@ -23,10 +20,10 @@ body{
 
 h1, h2, h3, h4 {
 	font-family: 'Playfair Display', serif;
-	font-style: italic;
+	font-style:italic;
 	font-weight: bold;
 	line-height: 1em;
-	margin-bottom: 0;
+	margin: 0 auto;
 	text-shadow: 2px 2px 3px #0FF494;
 	color:#F90307;
 	
