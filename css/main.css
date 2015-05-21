@@ -129,6 +129,11 @@ h2 {
 		
 }
 
+#logo img{
+	display:inline-block;
+	width:50%;	
+}
+
  /* Navigation
  ================================================== */
  #main_nav{
