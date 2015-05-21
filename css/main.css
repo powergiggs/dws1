@@ -45,6 +45,10 @@ a:hover{
 		
 }
 
+a:active{
+	color:#c0c2ce;
+}
+
 a{
 text-decoration: none;
 }
@@ -80,7 +84,7 @@ ol{
 }
 
 .container{
-	width:750px;
+	width:1000px;
 	padding:15px;
 	margin:0 auto;
 	background-color:hsla(0,13%,95%,1);
@@ -173,17 +177,38 @@ h2 {
 
 .sg_style{
 	background:rgba(255,255,255,1.00);
-	width: 700px;
+	
 	height:auto;
 	margin:20px auto;
 	text-align:left;
 	border-radius:10px;
 	border:solid 2px #48D53C;
 	
-	
-	
 		
 }
+
+#content {
+float:left;
+width: 600px;
+margin: 10px;
+
+}
+
+#photo {
+	
+float:left;
+width: 300px
+margin: 10px;
+	
+}
+
+#footer{
+	clear:both;
+	
+}
+
+
+
 
 
 .gimage img{
