@@ -61,7 +61,7 @@ p{
 	 line-height: 130%;
 	font-size:15px;
 	margin:10px;
-	padding:5px;
+	padding:20px 0 0;
 	text-align:left;
 }
 
@@ -82,6 +82,8 @@ blockquote p{
 ol{
 	list-style-type:circle;
 	font-size:15px;
+	margin:10px;
+	padding:20px ;
 	
 }
 
@@ -97,7 +99,7 @@ ol{
 
 h1 {
 	font-size: 45px;
-	margin: 20px auto;
+	margin: 60px auto;
 	
 }
 h2 {
@@ -198,7 +200,7 @@ h2 {
 #content {
 	float:left;
 	width: 500px;
-	margin: 10px;
+	margin: 15px;
 }
 
 
@@ -219,10 +221,11 @@ h2 {
 .icon{
 	width: 72px;
 	height:72px;
-	background: url(../images/Food-Dome.png) no-repeat  right top;
+	background: url(../images/Food-Dome.png) center right no-repeat;;
 	float:left;
-	margin: 10px 2px;
-	padding:10px auto;
+	
+padding:2px 5px 0 0;
+	
 	
 	
 	
