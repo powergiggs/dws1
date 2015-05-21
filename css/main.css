@@ -197,49 +197,15 @@ h2 {
 		
 }
 
-#content {
-	float:left;
-	width: 500px;
-	margin: 15px;
-}
-
-
-
-#photo {
-	
-	float:left;
-	width: 300px
-	margin: 30px;
-	background:linear-gradient(#BAF09B, green);
-	border: 2px solid #48D53C;
-	border-radius: 15px;
-	  
-
-}
-
-
 .icon{
 	width: 72px;
 	height:72px;
 	background: url(../images/Food-Dome.png) center right no-repeat;;
 	float:left;
-	
-padding:2px 5px 0 0;
-	
-	
-	
+	padding:2px 5px 0 0;
+
 	
 }
-
-#footer{
-
-	padding: 10px;
-	clear:both;
-	
-}
-
-
-
 
 
 .gimage img{
@@ -253,6 +219,48 @@ padding:2px 5px 0 0;
 	padding:5px;
 	border:solid 2px #D4D2D2;
 }
+
+
+
+/* Column Layout 
+ ================================================== */
+
+#content {
+	float:left;
+	width: 500px;
+	margin: 10px ;
+	
+}
+
+
+#photo {
+	
+	float:left;
+	width: 340px;
+	margin: 10px;
+	background: -webkit-linear-gradient (#BAF09B, green);
+	background: -moz-linear-gradient (#BAF09B, green);
+	background:linear-gradient(#BAF09B, green);
+	border: 2px solid #48D53C;
+	border-radius: 15px;
+	
+	  
+
+}
+
+
+
+
+#footer{
+
+	padding: 10px;
+	clear:both;
+	
+}
+
+
+
+
 
 
 
