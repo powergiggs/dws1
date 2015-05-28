@@ -274,14 +274,18 @@ h2.icon{
 
 
 table{
-	margin:10px auto;
+	margin:20px auto;
 	border:solid 2px #48D53C;
 	width:100%;
+	border-collapse:collapse;
+	
 	
 }
 table th, table td{
 	border: 1px solid #BAF09B;
 	padding: 5px;
+	
+	
 }
 
 table th{
@@ -291,7 +295,13 @@ table th{
 	font-weight:bold;
 	padding:6px;
 	text-transform:uppercase;
+	font-family: 'Playfair Display', serif;
+	text-align: center;
 	
+}
+table tbody tr:hover td {
+	background: #F90307;
+	color:#fff;
 }
 
 
