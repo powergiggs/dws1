@@ -270,6 +270,36 @@ h2.icon{
 	
 }
 
+/****Table Styles****/
+
+
+table{
+	margin:10px auto;
+	border:solid 2px #48D53C;
+	width:100%;
+	
+}
+table th, table td{
+	border: 1px solid #BAF09B;
+	padding: 5px;
+}
+
+table th{
+	background:#BAF09B;
+	color:#000;
+	font-size:16px;
+	font-weight:bold;
+	padding:6px;
+	text-transform:uppercase;
+	
+}
+
+
+.line{
+	background:#D4D2D2;
+	
+}
+
 
 
 
