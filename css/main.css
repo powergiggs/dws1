@@ -109,6 +109,8 @@ h2 {
 	font-size: 2em;
 	margin: 7%;
 	
+	
+	
 }
 
 #logo{
@@ -201,14 +203,11 @@ h2 {
 		
 }
 
-.icon{
-	width:72px;
-	height:72px;
-	background: url(../images/Food-Dome.png) left top no-repeat ;
+h2.icon{
 	
-	float:left;
-	margin: 5px;
-	padding: 5px ;
+	background: url(../images/Food-Dome.png) no-repeat left center ;
+	margin: 5px 5px;
+	padding : 12px 60px;
 
 	
 }
