@@ -132,6 +132,10 @@ h2 {
 		
 }
 
+.copyRight{
+	text-align:center;
+}
+
 
  /* Navigation
  ================================================== */
@@ -270,7 +274,10 @@ footer, #sg_contact{
 	
 }
 
-copyRight
+
+	
+
+
 
 /****Table Styles****/
 
@@ -312,31 +319,24 @@ table tbody tr:hover td {
 	
 }
 
-/****Table Styles ***/
-
 
 /*****Forms formatting***/
 
-
-	
-
 .contact-me {
     width:350px;
-    list-style-type:none;
-	list-style-position:outside;
-	margin:0px;
-	padding:0px;
+   	margin:10px;
+	padding:10px;
 }
-.contact_form p{
+.contact-me p{
 	margin:2px;
-	padding: 10px;
+	padding: 2px;
 	position:relative;
 } 
 
 .contact-me label {
 	font-size:14px;
 	
-	margin: 2px;
+	margin: 2px 0;
 	display:block;
 	float:left;
 	
@@ -345,7 +345,10 @@ table tbody tr:hover td {
 
 .contact-me input {
 	width:200px;
-	height:20px; 
+	height:15px;
+	text-align:left;
+	font-size:12px;
+	
 	
 	
 }
@@ -356,17 +359,23 @@ table tbody tr:hover td {
 		
 	}
 	
+.contact-me input:hover, .contact-me textarea:hover{
+	
+		background: #B8B6B6; 
+		border:2px solid #BAF09B;
+	}
+	
+	
 	button.submit {
 		background:#48D53C;
-		background:linear-gradient(#b4e391, #61c419)
+		background:linear-gradient(#b4e391, #61c419);
 		color:#FFF;
 		font-weight: bold;
 		padding: 6px 10px;
 		text-align: center;
 		border: 1px solid #0080c7;
-	border-bottom: 1px solid #0080c7;
-	border-radius: 3px;
-	font-size:14px;
+		border-radius: 3px;
+		font-size:14px;
 	}
 	
 	button.submit:hover {
