@@ -263,12 +263,14 @@ h2.icon{
 
 
 
-#footer{
+footer, #sg_contact{
 
 	padding: 1.9%;
 	clear:both;
 	
 }
+
+copyRight
 
 /****Table Styles****/
 
@@ -309,6 +311,70 @@ table tbody tr:hover td {
 	background:#D4D2D2;
 	
 }
+
+/****Table Styles ***/
+
+
+/*****Forms formatting***/
+
+
+	
+
+.contact-me {
+    width:350px;
+    list-style-type:none;
+	list-style-position:outside;
+	margin:0px;
+	padding:0px;
+}
+.contact_form p{
+	margin:2px;
+	padding: 10px;
+	position:relative;
+} 
+
+.contact-me label {
+	font-size:14px;
+	
+	margin: 2px;
+	display:block;
+	float:left;
+	
+	padding:1px;
+}
+
+.contact-me input {
+	width:200px;
+	height:20px; 
+	
+	
+}
+.contact-me input:focus, .contact-me textarea:focus {
+		background: #BAF09B; 
+		border:1px solid #48D53C; 
+		box-shadow: 0 0 3px #aaa; 
+		
+	}
+	
+	button.submit {
+		background:#48D53C;
+		background:linear-gradient(#b4e391, #61c419)
+		color:#FFF;
+		font-weight: bold;
+		padding: 6px 10px;
+		text-align: center;
+		border: 1px solid #0080c7;
+	border-bottom: 1px solid #0080c7;
+	border-radius: 3px;
+	font-size:14px;
+	}
+	
+	button.submit:hover {
+		background:#48D53C;
+		background:linear-gradient(#61c419, #b4e391)
+		
+	}
+
 
 
 
