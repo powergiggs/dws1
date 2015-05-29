@@ -369,11 +369,11 @@ table tbody tr:hover td {
 	button.submit {
 		background:#48D53C;
 		background:linear-gradient(#b4e391, #61c419);
-		color:#FFF;
+		color:#000;
 		font-weight: bold;
 		padding: 6px 10px;
 		text-align: center;
-		border: 1px solid #0080c7;
+		border: 1px solid #191616;
 		border-radius: 3px;
 		font-size:14px;
 	}
